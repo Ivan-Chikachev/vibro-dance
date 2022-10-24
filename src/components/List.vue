@@ -8,6 +8,7 @@
 export default {
   methods: {
     clickOk() {
+      window.navigator.vibrate([200]);
     }
   }
 };
